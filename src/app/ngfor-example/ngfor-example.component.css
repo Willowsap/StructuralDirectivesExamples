@@ -1,0 +1,31 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat {
+    background-color: rgb(91, 91, 91);
+    width: 50%;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.cat:hover {
+    cursor: pointer;
+    background-color: gray;
+}

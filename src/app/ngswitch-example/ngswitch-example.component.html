@@ -1,0 +1,18 @@
+<main>
+    <h3>Try entering words here and see what happens. Check out the code to see what different words might do.</h3>
+    <input type="text" [(ngModel)]="currWord">
+    <section [ngSwitch]="currWord">
+        <section *ngSwitchCase="'cat'">
+            <h1>People seem to have mixed feelings about cats. I'm a fan though.</h1>
+        </section>
+        <section *ngSwitchCase="'dog'">
+            <h1>Most people seem to love dogs. They're cute.</h1>
+        </section>
+        <section *ngSwitchCase="'snake'">
+            <h1>So cute, but they scare some people.</h1>
+        </section>
+        <section *ngSwitchDefault>
+            <h1>...</h1>
+        </section>
+    </section>
+</main>

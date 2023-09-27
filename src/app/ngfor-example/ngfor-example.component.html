@@ -1,0 +1,10 @@
+<section>
+    <h1>Here are my favorite cats. Click on them to reorder the list</h1>
+    <ul>
+        <li *ngFor="let cat of myFavoriteCats; let i=index"
+            class="cat"
+            (click)="move(i)">
+            {{cat}}
+        </li>
+    </ul>
+</section>

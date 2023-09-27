@@ -1,0 +1,12 @@
+<section class="ifExample">
+    <button
+        class="lightButton"
+        (click)="flipSwitch()">
+        Turn {{lightsOn ? "off" : "on"}} the Lights
+    </button>
+    <img
+        class="lights"
+        *ngIf="lightsOn"
+        src="https://jooinn.com/images1280_/isolated-light-bulb.jpg"
+        alt="picture of a lightbulb">
+</section>

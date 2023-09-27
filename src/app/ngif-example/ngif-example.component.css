@@ -1,0 +1,23 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 1%;
+    background-color: aliceblue;
+    border: none;
+    font-size: larger;
+    padding: 1%;
+}
+
+button:hover {
+    background-color: rgb(198, 198, 198);
+    cursor: pointer;
+}
+
+img {
+    width: 50%;
+}

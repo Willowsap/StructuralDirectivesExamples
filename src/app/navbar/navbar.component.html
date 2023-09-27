@@ -1,0 +1,5 @@
+<header>
+    <button *ngFor="let section of pages" [routerLink]="section.link">
+        {{ section.name }}
+    </button>
+</header>
